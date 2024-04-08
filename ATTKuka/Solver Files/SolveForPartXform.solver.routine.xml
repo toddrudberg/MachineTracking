@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solver_File>
+  <Trys>
+    <!---->
+    <Try DataRange="P1" Attempts="100" Minimize="All" ProblemType="Linear" UseLimits="false" StepSize="1E-08" TimeOut="120" Method="sumsquares">
+      <DHAttributes Elements="PartXform_X,PartXform_Y,PartXform_Z,PartXform_rX,PartXform_rY,PartXform_rZ" />
+      <ProgramFunction Instruction="" />
+    </Try>
+    <Try DataRange="P1" Attempts="100" Minimize="All" ProblemType="Linear" UseLimits="false" StepSize="1E-08" TimeOut="120" Method="sumsquares">
+      <DHAttributes Elements="lJ1x,lJ1y,lJ2x,lJ2y,lJ3x,lJ3y,lJ4x,lJ4y,lJ5x,lJ5y,PartXform_X,PartXform_Y,PartXform_Z,PartXform_rX,PartXform_rY,PartXform_rZ" />
+      <ProgramFunction Instruction="" />
+    </Try>
+    <Try DataRange="P1" Attempts="100" Minimize="All" ProblemType="Linear" UseLimits="false" StepSize="1E-08" TimeOut="120" Method="sumsquares">
+      <DHAttributes Elements="lJ1x,lJ1y,lJ2x,lJ2y,lJ3x,lJ3y,lJ4x,lJ4y,lJ5x,lJ5y,lJ6x,lJ6y,PartXform_X,PartXform_Y,PartXform_Z,PartXform_rX,PartXform_rY,PartXform_rZ" />
+      <AxisAttributes Elements="J1m: scalefactor,J2m: scalefactor,J3m: scalefactor,J4m: scalefactor,J5m: scalefactor,J6m: scalefactor" />
+      <ProgramFunction Instruction="" />
+    </Try>
+    <Try DataRange="P1" Attempts="100" Minimize="All" ProblemType="Linear" UseLimits="false" StepSize="1E-08" TimeOut="120" Method="sumsquares">
+      <DHAttributes Elements="BaseShift_X,BaseShift_Y,BaseShift_Z,BaseShift_rX,BaseShift_rY,BaseShift_rZ,baseBlocks,j1mrxoff,j1mryoff,j1mrzoff,lJ1x,lJ1y,lJ1z,j2mrxoff,j2mryoff,j2mrzoff,lJ2x,lJ2y,lJ2z,j3mrxoff,j3mryoff,j3mrzoff,lJ3x,lJ3y,lJ3z,j4mrxoff,j4mryoff,j4mrzoff,lJ4x,lJ4y,lJ4z,j5mrxoff,j5mryoff,j5mrzoff,lJ5x,lJ5y,lJ5z,j6mrxoff,j6mryoff,j6mrzoff,lJ6x,lJ6y,lJ6z,PartXform_X,PartXform_Y,PartXform_Z,PartXform_rX,PartXform_rY,PartXform_rZ" />
+      <AxisAttributes Elements="J1m: scalefactor,J2m: scalefactor,J3m: scalefactor,J4m: scalefactor,J5m: scalefactor,J6m: scalefactor" />
+      <ProgramFunction Instruction="" />
+    </Try>
+  </Trys>
+</Solver_File>

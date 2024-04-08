@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solver_File>
+  <Trys>
+    <!---->
+    <Try DataRange="random" Attempts="100" Minimize="All" ProblemType="Linear" UseLimits="false" StepSize="1e-8" TimeOut="120" Method="sumsquares">
+      <DHAttributes Elements="BaseShift_X,BaseShift_Y,BaseShift_Z,BaseShift_rX,BaseShift_rY,BaseShift_rZ" />
+      <ProgramFunction Instruction="" />
+    </Try>
+    <Try DataRange="random" Attempts="100" Minimize="All" ProblemType="Linear" UseLimits="false" StepSize="1e-8" TimeOut="120" Method="sumsquares">
+      <DHAttributes Elements="BaseShift_X,BaseShift_Y,BaseShift_Z,BaseShift_rX,BaseShift_rY,BaseShift_rZ,j1mrzoff,lJ1x,lJ1y,j2mrzoff,lJ2x,lJ2y,j3mrzoff,lJ3x,lJ3y,j4mrzoff,lJ4x,lJ4y,j5mrzoff,lJ5x,lJ5y,j6mrzoff,lJ6x,lJ6y" />
+      <ProgramFunction Instruction="" />
+    </Try>
+    <Try DataRange="random" Attempts="100" Minimize="All" ProblemType="Linear" UseLimits="false" StepSize="1e-8" TimeOut="120" Method="sumsquares">
+      <DHAttributes Elements="BaseShift_X,BaseShift_Y,BaseShift_Z,BaseShift_rX,BaseShift_rY,BaseShift_rZ,j1mrzoff,lJ1x,lJ1y,j2mrzoff,lJ2x,lJ2y,j3mrzoff,lJ3x,lJ3y,j4mrzoff,lJ4x,lJ4y,j5mrzoff,lJ5x,lJ5y,j6mrzoff,lJ6x,lJ6y" />
+      <AxisAttributes Elements="J1m: scalefactor,J2m: scalefactor,J3m: scalefactor,J4m: scalefactor,J5m: scalefactor,J6m: scalefactor" />
+      <ProgramFunction Instruction="" />
+    </Try>
+  </Trys>
+</Solver_File>

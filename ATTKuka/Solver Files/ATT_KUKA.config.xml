@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EITransform filename="E:\Machine Tracking\ATTKuka\Solver Files\ATT_KUKA.config.xml" time="4/4/2024 4:37:52 PM" solver_version="1.0.0.0">
+  <variables>
+    <static multiply="10000.0">
+      <_Debug value="False" />
+      <baseBlocks value="76.2000" />
+      <KRH60zoff value="815.0000" />
+      <j1mrxoff value="0.0249" />
+      <j1mryoff value="0.0018" />
+      <j1mrzoff value="-1.6792" note="oriented to +y axis" />
+      <lJ1x value="350.0123" note="+xoffset" />
+      <lJ1y value="-0.7350" note="" />
+      <lJ1z value="-0.0007" note="" />
+      <j2mrxoff value="0.0178" />
+      <j2mryoff value="0.2610" />
+      <j2mrzoff value="-0.1756" note="oriented to +x axis" />
+      <lJ2x value="850.5466" note="xoffset" />
+      <lJ2y value="4.3181" note="" />
+      <lJ2z value="-0.2362" />
+      <j3mrxoff value="0.0060" />
+      <j3mryoff value="-0.0101" />
+      <j3mrzoff value="0.2176" note="oriented to +x axis" />
+      <lJ3x value="819.8682" note="+xoffset" />
+      <lJ3y value="-144.9211" note="" />
+      <lJ3z value="-0.2362" />
+      <j4mrxoff value="-0.0115" />
+      <j4mryoff value="-0.0003" />
+      <j4mrzoff value="-0.0113" />
+      <lJ4x value="-0.2895" note="" />
+      <lJ4y value="0.0758" note="" />
+      <lJ4z value="0.0077" note="" />
+      <j5mrxoff value="0.1535" />
+      <j5mryoff value="-0.0302" />
+      <j5mrzoff value="-0.1548" />
+      <lJ5x value="170.3499" note="+xoffset" />
+      <lJ5y value="-0.0373" note="" />
+      <lJ5z value="-0.2608" note="" />
+      <j6mrxoff value="-0.0737" />
+      <j6mryoff value="-0.0196" />
+      <j6mrzoff value="-0.0746" />
+      <lJ6x value="0.0000" note="+xoffset" />
+      <lJ6y value="0.0000" note="+yoffset" />
+      <lJ6z value="0.0000" note="oriented to +z axis" />
+      <BaseShift X="-0.0001" Y="-0.0001" Z="0.0000" rX="0.0020" rY="-0.0014" rZ="-0.0167" />
+      <PartXform X="1129.7654" Y="-1342.3075" Z="-38.1093" rX="0.1183" rY="-0.1007" rZ="83.3154" />
+      <TP10X value="-42.4600" Hide="true" />
+      <TP10Y value="0.2400" Hide="true" />
+      <TP10Z value="147.4100" Hide="true" />
+    </static>
+    <machineaxes multiply="1000000.0">
+      <J1m rotary="True" scalefactor="0.000096" offset="0.000000" />
+      <J2m rotary="True" scalefactor="0.001010" offset="0.000000" />
+      <J3m rotary="True" scalefactor="0.000073" offset="0.000000" />
+      <J4m rotary="True" scalefactor="0.000000" offset="0.000000" />
+      <J5m rotary="True" scalefactor="-0.000301" offset="0.000000" />
+      <J6m rotary="True" scalefactor="-0.000447" offset="0.000000" />
+      <TP rotary="False" scalefactor="0.000000" offset="0.000000" Hide="true" />
+    </machineaxes>
+  </variables>
+  <TransForms>
+    <sixdof n="1" X="0" Y="0" Z="KRH60zoff" rX="j1mrxoff" rY="j1mryoff" rZ="j1mrzoff-J1m" />
+    <sixdof n="2" X="lJ1x" Y="lJ1y" Z="lJ1z" rX="-90+j2mrxoff" rY="j2mryoff" rZ="j2mrzoff+J2m" />
+    <sixdof n="3" X="lJ2x" Y="lJ2y" Z="lJ2z" rX="j3mrxoff" rY="j3mryoff" rZ="j3mrzoff+J3m" />
+    <sixdof n="4" X="lJ3x" Y="lJ3y" Z="lJ3z" rX="j4mrxoff" rY="90+j4mryoff" rZ="j4mrzoff-J4m" />
+    <sixdof n="5" X="lJ4x" Y="lJ4y" Z="lJ4z" rX="j5mrxoff" rY="-90+j5mryoff" rZ="j5mrzoff+J5m" />
+    <sixdof n="6" X="lJ5x" Y="lJ5y" Z="lJ5z" rX="j6mrxoff" rY="90+j6mryoff" rZ="j6mrzoff-J6m" />
+    <sixdof n="7" X="0" Y="0" Z="0" rX="0" rY="0" rZ="90" />
+    <sixdof n="8" X="TP10X*(TP=10)" Y="TP10Y*(TP=10)" Z="TP10Z*(TP=10)" rX="0" rY="0" rZ="0" />
+  </TransForms>
+</EITransform>
